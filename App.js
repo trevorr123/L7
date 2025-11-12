@@ -1,20 +1,36 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import {View, Text} from 'react-native';
+import Exercise1 from './Exercise1';
+import Exercise2 from './Exercise2';
+import Exercise3 from './Exercise3';
+import Exercise3b from './Exercise3b';
+import Exercise3c from './Exercise3c';
+import Exercise3d from './Exercise3d';
+import Exercise3e from './Exercise3e';
+import Exercise4 from './Exercise4';
+const MyApp = () => {
+    return (
+        <View style={{marginTop: 40, flex: 1}}>
+            <Text style={{fontSize: 30}}>Lesson 7 exercises:</Text>
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+            {/*<Exercise1 />*/}
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+            {/*<Exercise2 />*/}
+
+            {/*<Exercise3 />*/}
+
+            {/*<Exercise3b />*/}
+
+            {/*<Exercise3c />*/}
+
+            {/*<Exercise3d/>*/}
+
+            {/*<Exercise3e/>*/}
+
+            {/*<Exercise4/>*/}
+        </View>
+    );
+};
+
+export default MyApp;
+
